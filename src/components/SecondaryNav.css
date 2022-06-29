@@ -1,0 +1,20 @@
+.secondary-nav {
+    background-color: #61D340;
+    display: flex;
+    justify-content: center;
+    width: 1920px;
+}
+
+.secondary-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 9.75rem;
+}
+
+.secondary-nav a {
+    padding: 0.875rem;
+}
+
+.secondary-nav a.active {
+    border-bottom: solid 2px #fff;
+}

@@ -1,0 +1,53 @@
+h7 {
+    font-size: 36px;
+}
+
+.Percentages {
+    display: flex;
+    gap: 10px;
+}
+
+.Percentages-winLocal {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 211px;
+    height: 120px;
+}
+
+.Percentages-winLocal-p {
+ color: #52bf90;   
+}
+
+.Percentages-Draw {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 132px;
+    height: 120px;
+}
+
+.Percentages-Draw-p {
+ color: #fff953;   
+}
+
+.Percentages-winVisitor {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 211px;
+    height: 120px;
+}
+
+.Percentages-winVisitor-p {
+ color: #52bf90;   
+}

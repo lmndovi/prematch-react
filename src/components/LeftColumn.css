@@ -1,0 +1,16 @@
+.LeftColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 32px;
+}
+
+.LeftColumn-Skeleton-1 {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+}
+
+.LeftColumn-Skeleton-2 {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+}

@@ -1,0 +1,18 @@
+.Goles {
+    display: flex;
+    flex-direction: column;
+}
+
+.Goles-text {
+    display: flex;
+    gap: 84px;
+}
+
+.Goles-BTTS {
+    display: flex;
+    gap: 146px;
+}
+
+.Goles-odds {
+    color: #61d340;
+}
