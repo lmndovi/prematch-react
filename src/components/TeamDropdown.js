@@ -40,7 +40,9 @@ const TeamDropdown = () => {
             placeholder="Select a Team"
           >
             {localTeams.map((localTeam) => (
-              <option value={localTeam.value}>{localTeam.name}</option>
+              <option value={localTeam.value} className="TeamDropdown-options">
+                {localTeam.name}
+              </option>
             ))}
           </select>
         </div>
@@ -56,7 +58,12 @@ const TeamDropdown = () => {
             placeholder="Select a Team"
           >
             {visitorTeams.map((visitorTeam) => (
-              <option value={visitorTeam.value}>{visitorTeam.name}</option>
+              <option
+                value={visitorTeam.value}
+                className="TeamDropdown-options"
+              >
+                {visitorTeam.name}
+              </option>
             ))}
           </select>
         </div>

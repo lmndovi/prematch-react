@@ -33,7 +33,7 @@ height: 52px;
 left: 1707px;
 top: 21px;
 color: white;
-display: flex;
+display: inline-flex;
 align-items: center;
 justify-content: center;
 }

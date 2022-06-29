@@ -29,7 +29,9 @@ const LeagueDropdown = () => {
           placeholder="Select a League"
         >
           {leagues.map((league) => (
-            <option value={league.value}>{league.name}</option>
+            <option value={league.value} className="LeagueDropdown-options">
+              {league.name}
+            </option>
           ))}
         </select>
       </div>
