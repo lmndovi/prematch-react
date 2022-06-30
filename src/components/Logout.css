@@ -1,0 +1,19 @@
+.Logout {
+    width: 165px;
+    height: 52px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 8px;
+    background: #FB4B4E;
+    border-radius: 16px;
+    color: white;
+    font-size: 16px;
+}
+
+.Logout .p-button-icon {
+    color: inherit;
+    transform: rotate(180deg);
+}

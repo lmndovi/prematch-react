@@ -46,7 +46,7 @@ const TeamDropdown = () => {
             ))}
           </select>
         </div>
-        <h6>vs</h6>
+        <h6 className="TeamDropdown-versus">vs</h6>
         <div className="TeamDropdown-visitor-card">
           <h5>Visitor:</h5>
           <select

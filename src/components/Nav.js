@@ -1,4 +1,5 @@
 import React from "react";
+import Logout from "./Logout";
 import "./Nav.css";
 
 function Nav() {
@@ -21,15 +22,7 @@ function Nav() {
           <a>Category 3</a>
         </li>
       </ul>
-      <button className="nav-logout">
-        <a to="/">
-          <img
-            src="https://drive.google.com/uc?export=download&id=124BksTvAV_X52dmUA64dYpGct4lgaPKd"
-            alt=""
-          />
-          <span className="nav-logout-text">Log Out</span>
-        </a>
-      </button>
+      <Logout />
     </nav>
   );
 }
